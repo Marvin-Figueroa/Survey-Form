@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(102, 49, 172, 0.85),
+      rgba(88, 37, 136, 0.85)
+    ),
+    url("https://images5.alphacoders.com/695/695931.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 120%;
+  outline: none;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(142, 68, 173);
+  border-radius: 8px;
+  outline: none;
+  font-size: 120%;
+  margin-top: 10px;
+}
+
+#title,
+#description {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#title {
+  margin-top: 40px;
+}
+
+#dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 120%;
+  border: 1px solid rgb(142, 68, 173);
+  border-radius: 8px;
+  outline: none;
+  color: gray;
+}
+
+#form-container {
+  background-color: rgba(142, 68, 173, 0.7);
+  margin: 40px auto;
+  width: 60%;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+div.input-block {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 120%;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  outline: none;
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #902cb8;
+}
